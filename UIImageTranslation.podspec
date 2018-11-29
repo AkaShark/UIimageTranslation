@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UIImageTranslation"
-  spec.version      = "0.0.3"
+  spec.version      = "0.1.0"
   spec.summary      = "UIImageTranslation."
 
   # This description is used to generate tags and improve search results.
@@ -39,10 +39,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-	spec.license = { :type => 'MIT', :text => <<-LICENSE
-         Copyright PPAbner 2016-2017
-          LICENSE
-      }
+	spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -94,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-   spec.source_files = 'UIImageTranslation/**/*.{c,h,hh,m,mm}'spec.public_header_files = 'UIImageTranslation/**/*.h'
+   spec.source_files = 'UIImageTranslation/*.{c,h,hh,m,mm}' spec.public_header_files = 'UIImageTranslation/*.h'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
