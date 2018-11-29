@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "UIImageTranslation"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "UIImageTranslation."
 
   # This description is used to generate tags and improve search results.
@@ -94,7 +94,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-   spec.source_files = 'UIImageTranslation/**/*.{c,h,hh,m,mm}'s.public_header_files = 'UIImageTranslation/**/*.h'
+   spec.source_files = 'UIImageTranslation/**/*.{c,h,hh,m,mm}'spec.public_header_files = 'UIImageTranslation/**/*.h'
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
